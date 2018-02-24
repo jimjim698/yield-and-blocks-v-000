@@ -3,15 +3,20 @@
 
 def hello_t(array)
   if block_given?
-yield
+    i = 0
+    while i< array.length
+yield (array[i])
+end
+array
   else
     puts "Hey! No block was given!"
   end
-  array
 end
 
 
 
 # call your method here!
 array = [1,2,3,4]
-hello_t(array) { |i| puts i* 2}
+hello_t(array) 
+
+
