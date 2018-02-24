@@ -14,4 +14,4 @@ end
 
 # call your method here!
 array = [1,2,3,4]
-hello_t(array) { |i| puts i }
+hello_t(array) { |i| puts "#{i}"
