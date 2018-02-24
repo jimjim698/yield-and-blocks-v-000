@@ -14,7 +14,7 @@ yielded
 
 # call your method here!
 
-hello_t([1,2,3,4])
+hello_t(array)
 i = 0
 
 while i < array.length
